@@ -1,0 +1,60 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0;
+
+    .container{
+        width: 1400px;
+        display: flex;
+        justify-content: space-between;
+
+        h5 {
+                font-size: 12px;
+                color: gray;
+                font-weight: normal;
+                font-size: 14px;
+        }
+
+        .left {
+            flex: 1;
+            img {
+                width: 100px;
+            }
+
+            .brand {
+                font-weight: 500;
+                font-size: 18px;
+            }        
+        }
+
+        .right {
+            flex: 1;
+            display: flex;
+            justify-content: space-between;
+
+            .list {
+                display: flex;
+                flex-direction: column;
+
+                input {
+                    width: 250px;
+                    padding: 5px 10px;
+                    border-radius: 5px;
+                }
+
+                button {
+                    width: 150px;
+                    padding: 5px;
+                    border-radius: 5px;
+                }
+            }
+        }
+
+
+    }
+
+    hr {
+        border: 1px solid gray;
+    }
+}

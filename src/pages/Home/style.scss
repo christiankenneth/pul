@@ -1,0 +1,53 @@
+.home{
+
+    .cards {
+        margin-bottom: 40px;
+
+        h1{
+            text-align: center;
+            padding: 10px 0;
+            color: #0254f6;
+        }
+
+        .container {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 25px;
+        }
+    }
+
+    .features {
+        background-color: #fafafa;
+        padding: 10px 0;
+
+        h1{
+            text-align: center;
+            color: #0254f6;
+        }
+
+        .container{
+            width: 800px;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            align-items: center;
+
+            .left {
+                flex: 1;
+            }
+
+            .right {
+                flex: 1;
+                text-align: end;
+
+                img {
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
+
+    }
+}
